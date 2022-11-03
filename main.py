@@ -42,6 +42,7 @@ GREEN = (0, 255, 0)
 BLUE = (0, 0, 255)
 YELLOW = (244, 255, 0)
 
+# defines the function that visually draws text
 def draw_text(text, size, color, x, y):
         font_name = pg.font.match_font('arial')
         font = pg.font.Font(font_name, size)
